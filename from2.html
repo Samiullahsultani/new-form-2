@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+</head>    
+<body>
+<h1>your personal information </h1>
+
+<div class="container">
+    
+    <div class="form-div">
+     <form onsubmit="Click(event)"> 
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td id="td2">
+                        <input type="text" id="name" placeholder="Pleas Enter Your Name Here......"/>
+                        <td>F/Name</td>
+                        <td id="td2">
+                            <input type="text" id="F/name" placeholder="Pleas Enter Your F/Name Here......"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password
+                    </td>
+                    <td id="td2">
+                        <input type="password" id="password" placeholder="Please Enter Your Password........"/>
+                    </td>
+                </tr>         
+                     <tr>
+                    <td id="td2">
+                        Gender
+                    </td>
+                    <td id="td2">
+                        Male<input type="radio"value="Male" name="gender"/>
+                        Female<input type="radio"value="Female" name="gender"/>
+                    </td>
+                </tr>  
+
+                             <tr>
+                    <td>
+                        Education
+                    </td>
+                    <td>
+                        <select id="education">
+                            <option value="DEL">DEL</option>
+                            <option value="DIT">DIT</option>
+                            <option value="CIT">CIT</option>
+                            <option value="BCS">BCS</option>
+
+                        </select>
+                    </td>
+                </tr>        
+                       <tr>
+                    <td>
+                        Hobbeis
+                    </td>
+                    <td>
+                        playfootball<input type="checkbox" name="Hobbeis" value="playfootball"/>
+                        playvollyball<input type="checkbox" name="Hobbeis" value="playvollyball"/>
+                        Reading <input type="checkbox" name="Hobbeis" value="Reading"/>
+                        wachingtv<input type="checkbox" name="Hobbeis" value="wachingtv"/>
+
+                    </td>
+                </tr>    
+                           <tr>
+                    <td>comment</td>
+                    <td id="td2">
+                        <textarea id="comment" cols="2" rows="3"></textarea>
+                    </td>
+                </tr>    
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" >Submit</button>
+                    </td>
+                    
+                    
+                </tr>
+            </table>
+
+    </div>
+
+
+
+    <div class="form-div">
+<table>
+    
+    <tr>
+        <td id="nameResult"></td>
+    </tr>
+    <tr>
+        <td id="passwordResuslt"></td>
+    </tr>
+    <tr>
+        <td id="genderResult"></td>
+    </tr>
+    <tr>
+        <td id="HobbiesResult"></td>
+    </tr>
+    <tr>
+        <td id="eductionResult"></td>
+    </tr>
+    <tr>
+        <td id="commentResult"></td>
+    </tr>
+</table>
+    </div>
+</div>
+<script src="./js/funtionaliy.js"></script>
+</body>
+</form>
+</html>
